@@ -1,0 +1,73 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin: 0px 30px 0px 30px;
+}
+
+.accordion-header {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.accordion-content {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.show-hide {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999999;
+}
+
+.show-hide-icon {
+    position: relative;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.show-hide-icon img {
+    left: 5px;
+    top: 5px
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.checkbox-name {
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 22px;
+
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #00B797;
+    color: #ccc;
+}
+
+input[type="checkbox"]:after {
+    background-color: black;
+}
+
+input[type='checkbox']:checked:after {
+
+    color: white;
+}
